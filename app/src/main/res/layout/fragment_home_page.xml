@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_page"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/flipper">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/book2" />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/bookss1" />
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/books3" />
+
+        </ViewFlipper>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="230dp"
+            android:background="@color/cornsilk"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="40dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView_education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Educational_Book's"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_education"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="4sp"
+                android:background="@drawable/button_round_login"
+                android:text="Show_More"
+                android:textColor="@android:color/background_light"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="470dp"
+            android:background="@color/cornsilk"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_story"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="40dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView_recycler_story"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Story_Book's"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_recycler_story"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="4sp"
+                android:background="@drawable/button_round_login"
+                android:text="Show_More"
+                android:textColor="@android:color/background_light"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="710dp"
+            android:background="@color/cornsilk"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_novels"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="40dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView_recycler_novels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Novel's"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_recycler_novels"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="4sp"
+                android:background="@drawable/button_round_login"
+                android:text="Show_More"
+                android:textColor="@android:color/background_light"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="950dp"
+            android:background="@color/cornsilk"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_hitorical"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="40dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView_recycler_historical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Historical_Book's"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_recycler_historical"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="4sp"
+                android:background="@drawable/button_round_login"
+                android:text="Show_More"
+                android:textColor="@android:color/background_light"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="1190dp"
+            android:background="@color/cornsilk"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_fiction"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="40dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView_recycler_fiction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Science_Fiction"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_recycler_fiction"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="4sp"
+                android:background="@drawable/button_round_login"
+                android:text="Show_More"
+                android:textColor="@android:color/background_light"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

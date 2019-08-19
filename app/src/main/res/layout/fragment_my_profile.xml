@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_profile"
+    android:background="@drawable/background"
+    >
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#0a463f"
+       android:layout_marginTop="100dp">
+
+
+       <TableLayout
+           android:layout_width="wrap_content"
+           android:layout_height="350dp"
+           android:paddingTop="2sp"
+           android:orientation="vertical"
+           android:background="#0a463f">
+
+           <TableRow
+               android:layout_width="200dp"
+               android:layout_height="55dp"
+               android:orientation="vertical"
+               android:weightSum="2">
+
+               <TextView
+                   android:id="@+id/fullname"
+                   android:layout_width="100dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="Full Name :-"
+
+                   android:textAlignment="center"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/fullname_data"
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="TextView"
+                   android:paddingLeft="5dp"
+
+                   android:textAlignment="viewStart"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp" />
+           </TableRow>
+
+           <TableRow
+               android:layout_width="200dp"
+               android:layout_height="55dp"
+               android:orientation="vertical"
+               android:weightSum="2">
+
+               <TextView
+                   android:id="@+id/email"
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="E-mail :-"
+
+                   android:textAlignment="center"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/email_data"
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="TextView"
+
+                   android:paddingLeft="5dp"
+                   android:textAlignment="viewStart"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp" />
+           </TableRow>
+
+
+           <TableRow
+               android:layout_width="200dp"
+               android:layout_height="50dp"
+               android:orientation="vertical"
+               android:weightSum="2">
+
+               <TextView
+                   android:id="@+id/dob"
+                   android:layout_width="200dp"
+                   android:layout_height="45dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="D-O-B :-"
+
+                   android:textAlignment="center"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/dob_data"
+                   android:layout_width="200dp"
+                   android:layout_height="45dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="TextView"
+
+                   android:paddingLeft="5dp"
+                   android:textAlignment="viewStart"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp" />
+           </TableRow>
+
+           <TableRow
+               android:layout_width="200dp"
+               android:layout_height="50dp"
+               android:orientation="vertical"
+               android:weightSum="2">
+
+               <TextView
+                   android:id="@+id/mobile"
+                   android:layout_width="200dp"
+                   android:layout_height="45dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="Mobile no :-"
+
+                   android:textAlignment="center"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/mobile_data"
+                   android:layout_width="200dp"
+                   android:layout_height="45dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="TextView"
+                   android:paddingLeft="5dp"
+
+                   android:textAlignment="viewStart"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp" />
+           </TableRow>
+
+           <TableRow
+               android:layout_width="200dp"
+               android:layout_height="160dp"
+               android:orientation="vertical"
+               android:weightSum="2">
+
+               <TextView
+                   android:id="@+id/address"
+                   android:layout_width="200dp"
+                   android:layout_height="140dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="Address :-"
+
+                   android:textAlignment="center"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/address_data"
+                   android:layout_width="200dp"
+                   android:layout_height="140dp"
+                   android:layout_weight="1"
+                   android:background="@drawable/cell_shape"
+                   android:text="TextView"
+                   android:paddingLeft="5dp"
+
+                   android:textAlignment="viewStart"
+                   android:textColor="@android:color/background_light"
+                   android:textSize="18sp" />
+           </TableRow>
+
+       </TableLayout>
+   </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="221dp"
+        android:layout_height="52dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/my_profile_detail"
+
+        android:textAlignment="center"
+        android:textColor="@color/cornsilk"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/update_profile_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="465dp"
+        android:layout_marginLeft="8dp"
+
+        android:background="@drawable/button_round_login"
+        android:text="Profile Update"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+
+
+    <Button
+        android:id="@+id/change_password_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="465dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginRight="7dp"
+
+        android:background="@drawable/button_round_login"
+        android:text="Change Password"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+</RelativeLayout>

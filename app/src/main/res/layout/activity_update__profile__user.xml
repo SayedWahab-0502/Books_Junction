@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book_final2"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="6dp"
+        android:id="@+id/toolbar_update_profile"
+        android:minHeight="?actionBarSize"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Profile Update"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="casual"
+                android:text="@string/my_profile_update"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/user_fullname_update"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="  Enter your Full Name"
+                android:drawableLeft="@drawable/ic_action_username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/user_email_update"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+
+                android:ems="10"
+                android:hint="  Enter your e-mail"
+                android:drawableLeft="@drawable/ic_action_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/user_dob_update"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_action_date_of_birth"
+                android:hint="  Enter your D-O-B"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/user_mobile_no_update"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_action_mobile_no"
+                android:hint="  Enter your Mobile no"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/user_address_update"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:hint="  Enter your Address"
+                android:inputType="text"
+                android:drawableLeft="@drawable/ic_location_address"/>
+
+            <Button
+                android:id="@+id/update_prof_btn"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="55dp"
+                android:background="@drawable/button_round_login"
+                android:text="Update Profile"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

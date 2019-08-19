@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "937134562868",
+    "firebase_url": "https://books-junction.firebaseio.com",
+    "project_id": "books-junction",
+    "storage_bucket": "books-junction.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937134562868:android:ee46fa54a4258ebf",
+        "android_client_info": {
+          "package_name": "com.wahab.books_junction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937134562868-f0tj1dd626bqfs856vqvqm52teu2oj3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDidmn6P_Wzng_gJMbuMaWv-77L6PoiOXY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

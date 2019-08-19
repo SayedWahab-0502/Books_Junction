@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Book\'s Junction</string>
+    <string name="login">Log_In \n To Your Account!!!</string>
+    <string name="sign_up_now">Need an Account ? Register Now</string>
+    <string name="book_s_n_junction">Book\'s   Junction</string>
+    <string name="log_in">Log In</string>
+    <string name="new_to_accnt">Are You New ?</string>
+    <string name="create_account">Create Account!!!</string>
+    <string name="text">After Clicking The Register Button  You will be Redirected to LogIn Screen</string>
+    <string name="fullname">Enter User Name</string>
+    <string name="enter_your_mobile_no">Enter your Mobile no</string>
+
+    <string name="title_activity_navigation_main">Navigation_main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_profile_detail"><u>My Profile Detail</u></string>
+    <string name="about_us">About Us</string>
+    <string name="profile_updation">Profile Update</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="ssc_name">10TH STD</string>
+    <string name="ele_science">11TH SCIENCE</string>
+    <string name="ele_commerce">11TH COMMERCE</string>
+    <string name="twel_science">12TH SCIENCE</string>
+    <string name="twel_commerce">12TH COMMERCE</string>
+    <string name="Change_password">Change Password</string>
+    <string name="story_book">Story Book\'s</string>
+   <string name="novel">Novel\'s</string>
+    <string name="science_fiction">Science Fiction</string>
+    <string name="history">Historical Book\'s</string>
+    <string name="my_profile_update">After Clicking The Update Profile Button You will be Redirected to  \nMy Profile Screen</string>
+    <string name="about_us_detail">        <b>Welcome</b> to Book\'s Junction,a Mobile App service designed to help you get you\'r Desire and well-loved Book\'s. \n       \n<b>Book\'s Junction</b> is the one stop store for all your Desired Reading and Learning Book\'s needs.\n     We take care of providing a convenient service to our customer\'s.\n       \n<b>We Believe</b> that Book\'s are the Bridge Between You and You\'r Dreams. </string>
+
+</resources>
