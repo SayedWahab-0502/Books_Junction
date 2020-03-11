@@ -40,4 +40,7 @@ This is a static application where users cannot shop any books but can register,
 
 <img src="books_junction_images/story_books.png" width="400"/> <img src="books_junction_images/novel_books.png" width="400" hspace="20" />
 
+
+<img src="books_junction_images/edu_books7.png" width="400"/> <img src="books_junction_images/edu_books5.png" width="400" hspace="20" />
+
  
