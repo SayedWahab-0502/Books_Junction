@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main_content"
-    tools:context=".Eleventh_TabList"
+    tools:context=".Fragments.TabListClass.Eleventh_TabList"
     android:orientation="vertical">
 
     <android.support.design.widget.AppBarLayout

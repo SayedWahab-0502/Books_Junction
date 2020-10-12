@@ -13,31 +13,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash_activity">
+
+        <activity android:name=".Activities.Splash_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Science_Grid" />
-        <activity android:name=".Story_Book_List" />
-        <activity android:name=".Novel_List" />
-        <activity android:name=".Historical_Grid" />
-        <activity android:name=".SSC_AddToBag_list" />
+        <activity android:name=".Activities.Main2Activity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.Science_Grid" />
+        <activity android:name=".Activities.Story_Book_List" />
+        <activity android:name=".Activities.Novel_List" />
+        <activity android:name=".Activities.Historical_Grid" />
+        <activity android:name=".Activities.SSC_AddToBag_list" />
 
-        <activity android:name=".twelveth_addtobag_science" />
-        <activity android:name=".twelveth_addtobag_commerce" />
-        <activity android:name=".eleventh_addtobag_science" />
-        <activity android:name=".eleventh_commerce_addtobag" />
-        <activity android:name=".Change_Password" />
-        <activity android:name=".Update_Profile_User" />
-        <activity android:name=".Forget_password" />
+        <activity android:name=".Activities.twelveth_addtobag_science" />
+        <activity android:name=".Activities.twelveth_addtobag_commerce" />
+        <activity android:name=".Activities.eleventh_addtobag_science" />
+        <activity android:name=".Activities.eleventh_commerce_addtobag" />
+        <activity android:name=".Activities.Change_Password" />
+        <activity android:name=".Activities.Update_Profile_User" />
+        <activity android:name=".Activities.Forget_password" />
 
-        <activity android:name=".Navigation_main"
+        <activity android:name=".Activities.Navigation_main"
             android:theme="@style/AppTheme.NoActionBar" />
 
     </application>

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Educational_drawer"
+    tools:context=".Fragments.DrawerClass.Educational_drawer"
     android:background="@drawable/book_final2"
     >
 
@@ -29,8 +29,7 @@
         android:layout_height="73dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginEnd="19dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginTop="189dp"
         android:background="@android:color/background_light" />
 
