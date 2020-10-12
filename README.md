@@ -15,10 +15,10 @@ This is a static application where users cannot shop any books but can register,
  
  <h1>Screenshots of the Application</h1>
 
-<img src="books_junction_images/register_accnt.png" width="400"/> <img src="books_junction_images/register_accnt2.png" width="400" hspace="20" />
+<img src="books_junction_images/register_accnt.png" width="300"/> <img src="books_junction_images/register_accnt2.png" width="300" hspace="20" />
 
 
-<img src="books_junction_images/log_in.png" width="400"/> <img src="books_junction_images/forget_pssword.png" width="400" hspace="20" />
+<img src="books_junction_images/log_in.png" width="300"/> <img src="books_junction_images/forget_pssword.png" width="300" hspace="20" />
 
 
 
